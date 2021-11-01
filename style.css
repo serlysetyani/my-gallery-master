@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile{
+    margin: 40px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 24px;
+}
+
+.profile p{
+    margin: 12px 0 0 0;
+}
+
+.count-container{
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0 0 0;
+    justify-content: space-between;
+}
+
+.item{
+    width: 100px;
+    height: 67px;
+    background-color: #E5E5E5;
+    border-radius: 12px;
+    margin: 0 12px 0 12px;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery{
+    margin: 40px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery img{
+    border-radius: 12px;
+}
+
+.kiri{
+    float: left;
+    margin: 0 16px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.kanan{
+    float: right;
+    margin: 0 0 0 16px;
+}
+
+.photo1{
+    width: 300px;height: 300px;
+}
+
+.photo2{
+    width: 630px;height: 300px;
+}
+
+.photo3{
+    width: 630px;height: 300px;
+}
+
+.photo5{
+    width: 300px;height: 300px;margin-right: 32px;
+}
+
+.photo6{
+    width: 300px;height: 300px;
+}
+
+.photo4{
+
+}
+
+.part-bawah{
+    margin-top: 32px;
+}
+
+.bawah2{
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 768px){
+    .profile{
+        margin: 40px auto auto auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .count-container{
+        display: flex;
+        flex-direction: row;
+        margin: 12px 0 0 0;
+        justify-content: space-between;
+    }
+
+    .photo1{
+        width: 110px;height: 110px;
+    }
+    
+    .photo2{
+        width: 230px;height: 110px;
+    }
+    
+    .photo3{
+        width: 230px;height: 110px;
+    }
+    
+    .photo5{
+        width: 110px;height: 110px;margin-right: 8px;
+    }
+    
+    .photo6{
+        width: 110px;height: 110px;
+    }
+
+    .photo4{
+        width: 110px;
+        height: 230px;
+    }
+
+    .part-bawah{
+        margin-top: 16px;
+    }
+
+    .gallery{
+        margin: 40px auto auto auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kiri{
+        float: left;
+        margin: 0 8px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .kanan{
+        float: right;
+        margin: 0 0 0 8px;
+    }
+}
